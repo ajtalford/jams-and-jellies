@@ -1,0 +1,265 @@
+/* ED = #FF5C5C Blue = #161E67 and White = #FFFFFF  */
+
+body {
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+h1 {
+  /* font-family: 'Manrope', sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  color: #ff5c5c;
+}
+
+p {
+  /* font-family: 'Manrope', sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+
+#top-image {
+  background-image: url("images/top-image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  height: -200px;
+  width: 100%;
+  justify-content: start;
+  color: #ff5c5c;
+  color: #161e67;
+  text-align: center !important;
+}
+
+#top-nav {
+  background-color: #ff5c5c !important;
+}
+
+#zach {
+  background-image: url("images/images.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: -200px;
+  text-align: center;
+  color: #ffffff;
+  /* color: #161E67; */
+  /* font-weight: bold; */
+  align-content: left;
+  align-items: center;
+}
+
+#pasha {
+  background-image: url("images/images-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 116% 700px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: -200px;
+  color: #ffffff;
+  font-size: large;
+  align-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #161e67;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  /* color: #FF5C5C; */
+}
+
+a:hover {
+  color: #ff5c5c;
+
+  text-decoration: none;
+}
+
+#footer {
+  padding-bottom: 20%;
+  margin-bottom: 0px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    color: #ffffff;
+   
+  }
+
+  #contact-footer {
+    /* padding-bottom: 20%; */
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+      position: relative;
+      left: 0;
+      bottom: 0;
+      height: 345px;
+      color: #ffffff;
+     
+    }
+
+#rows1 {
+  margin-top: -50px;
+  color: #ffffff;
+}
+
+.card-text {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-title {
+  color: #ff5c5c;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-body {
+  background-color: #161e67;
+}
+
+#coming {
+  color: #ff5c5c;
+  text-decoration: underline;
+  font-size: 300%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* .banner-picture {
+  filter: opacity(30%);
+} */
+
+.central-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: #ff5c5c;
+  /* font-weight: ; */
+  font-family: "Montserrat", sans-serif;
+}
+.top-seller {
+  position: absolute;
+  top: 48%;
+  font-weight: bold;
+  font-size: 20px;
+  left: 28%;
+  color: #ff5c5c;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 1px 1px black;
+}
+
+.coming-soon-cards {
+  justify-content: center;
+}
+
+#Coming-soon-banner {
+  background-image: url("images/images-2.jpg");
+  height: 150px;
+  width: 100%;
+  background-position: 0 30%;
+  filter: opacity(30%);
+  z-index: -1;
+}
+.card:hover {
+  /* Caused issue with modal */
+  /* transform: scale(1.05);*/
+  box-shadow: 10px 10px 15px #000000e0; 
+}
+.card::before,
+.card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform 1s ease-out 0.2s;
+  background: rgba(255, 255, 255, 0.1);
+  content: "";
+  pointer-events: none;
+}
+.card::before {
+  transform-origin: right top;
+}
+.card::after {
+  transform-origin: left bottom;
+}
+.card:hover::before,
+.card:hover::after,
+.card:focus::before,
+.card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+
+
+.carousel-item  {
+  width: 75%;
+  padding-left: 25%;
+/*  padding-bottom: 100px;
+ margin-bottom: 100px; */
+ z-index: 20px;
+}
+
+/* .testimonial{
+  padding-top: 15px;
+  height : 50%;
+  color: black;
+} */
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row-bg{
+  background-image: url("https://i.pinimg.com/originals/dc/ef/f6/dceff6eb8639f46f68f25c36125bdbeb.jpg");
+  background-size: 75% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#bannerpic {
+	background-image: url("images/barbara-montavon-lZnzRSeSCUM-unsplash.jpg");
+	height: 150px;
+	/* width: 100%; */
+	background-size: cover;
+	background-attachment: fixed;
+	/* background-position: 0 30%; */
+	opacity: 0.5;
+	/*filter: grayscale(100%);*/
+}
+.modal-body{
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  border-radius:10px;
+}
+.modal-header {
+  max-height: calc(100vh - 550px);
+}
+.table{
+  display: block;
+  empty-cells: show;
+  border: 1px solid#D3D3D3;
+  border-radius: 10px;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.ingredients {
+  border: 1px solid#D3D3D3;
+  border-radius: 10px;
+  color:black;
+}
+.ingredients-header{
+  color:black;
+}
+.col-sm-3{
+  display: flex;
+  justify-content: center;
+}

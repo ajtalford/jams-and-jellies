@@ -1,0 +1,109 @@
+body {
+	background-color:white;
+	color:#161e67 !important;
+	text-align: left;
+}
+#top-nav {
+	background-color: #ff5c5c !important;
+}
+.about {
+	/* margin-top: 50 px; */
+	padding-top: 50px;
+}
+div,
+h6 {
+	padding: 5px;
+}
+h2,
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ff5c5c;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ff5c5c;
+	font-weight: bold;
+}
+
+/* Top image  */
+#firstpix {
+	background-image: url(https://blog.publix.com/publix/files/2018/11/Jellies-and-jams-on-wood-table.jpg);
+	height: 150px;
+	/* width: 100%; */
+	background-size: cover;
+	background-attachment: fixed;
+	/* background-position: 0 30%; */
+	opacity: 0.5;
+	/*filter: grayscale(100%);*/
+}
+
+#firstHeading {
+	margin-top: 10%;
+}
+
+/* image in Our core values */
+#jarpix {
+	background-image: url(https://inhabitat.com/wp-content/blogs.dir/1/files/2014/09/Decorated-Jars.jpg);
+	height: 150px;
+	width: 100%;
+	background-position: 0 30%;
+	opacity: 0.3;
+	filter: grayscale(100%);
+}
+
+#coreValues {
+	margin-top: 5%;
+}
+
+/* form */
+
+.contact {
+	/* margin-top: 100px; */
+	/* margin-bottom: 50px; */
+}
+
+div.form {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+}
+#name,
+#email {
+	width: 80%;
+}
+#msg {
+	height: 100px;
+	width: 80%;
+}
+#submit {
+	margin: 20px;
+	width: 100px;
+	background-color: #a4a5a5;
+	border-radius: 15px;
+}
+#submit:hover {
+	background-color: #ff5c5c;
+}
+
+#footer{
+	background-color: #161e67;
+	
+}
+/*
+Hex Values:
+RED= #FF5C5C
+Blue = # 161e67
+White = #FFFFFF
+H1 Monsterrat Extra-bold 800
+Other headers: Monsterrat Semi-bold 600
+p : Montserrat Regular 400
+https://fonts.google.com/specimen/Montserrat?
+selection.family=Montserrat:wght@100;400
+Monsterrat
+*/

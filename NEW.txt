@@ -1,0 +1,2 @@
+git remote add origin https://github.com/ajtalford/jams-and-jellies.git
+git push -u origin master
